@@ -24,4 +24,4 @@ jobs:
          pip install requests
       - name: 'qywxRobot'  #运行py
         run: |
-          python ${{ github.workspace }}/ }}/qywxRobot.py
+          python ${{ github.workspace }}/qywxRobot.py

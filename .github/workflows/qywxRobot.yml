@@ -24,4 +24,5 @@ jobs:
          pip install requests
       - name: 'qywxRobot'  #运行py
         run: |
+          using: 'node16'
           python ${{ github.workspace }}/ }}/qywxRobot.py

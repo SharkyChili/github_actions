@@ -1,7 +1,8 @@
+import sys
 import requests
 
 # 点餐助手
-request_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=dd18a2b8-94d8-4a59-a61a-f529fd60f964";
+request_url = sys.argv[1]
 
 # 请求头
 header = {

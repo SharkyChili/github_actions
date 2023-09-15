@@ -13,7 +13,7 @@ header = {
 body = {
     "msgtype" : "text",
     "text" : {
-        "content" : "企微机器人测试，来自python_wayne"
+        "content" : "点餐提醒（from github actions）"
     }
 }
 
